@@ -1610,3 +1610,14 @@ body,
     color: #fff5c6;
   }
 }
+
+/* Keep the supplied portrait in its original natural colors. */
+.hero-photo {
+  filter: contrast(1.04) saturate(1.08);
+  mix-blend-mode: normal;
+  opacity: 1;
+}
+@keyframes photo-arrive {
+  from { opacity: 0; filter: saturate(1.08) blur(10px); transform: translateY(40px); }
+  to { opacity: 1; filter: contrast(1.04) saturate(1.08) blur(0); transform: translateY(0); }
+}
