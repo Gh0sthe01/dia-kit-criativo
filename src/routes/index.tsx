@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
-import hero from "@/assets/hero-apostolo.jpg";
+import hero from "@/assets/hero-apostolo-novo.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
