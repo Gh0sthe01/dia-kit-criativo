@@ -1721,3 +1721,12 @@ body,
   transform: rotate(-55deg);
   transform-origin: left center;
 }
+
+
+/* Mantém visível o acento agudo, que fica acima do glifo dentro da linha animada. */
+.title-line:first-child {
+  overflow: visible;
+}
+.title-accent-o::before {
+  top: 0.045em;
+}
