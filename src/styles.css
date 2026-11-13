@@ -1703,3 +1703,21 @@ body,
 .editorial-page a.partnership-button .arrow-icon {
   stroke: currentColor !important;
 }
+
+
+/* Desenha o acento agudo do Ó com forma nítida na fonte display. */
+.title-accent-o {
+  position: relative;
+}
+.title-accent-o::before {
+  content: "";
+  position: absolute;
+  top: -0.035em;
+  left: 0.39em;
+  width: 0.28em;
+  height: 0.045em;
+  border-radius: 999px;
+  background: currentColor;
+  transform: rotate(-55deg);
+  transform-origin: left center;
+}
