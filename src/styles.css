@@ -1381,3 +1381,232 @@ a:hover .arrow-icon {
     --fill: 100% !important;
   }
 }
+
+
+
+/* User palette update: deep blue-green base, warm pale text, ivory accents. */
+:root {
+  --editorial-paper: #0f1f23;
+  --editorial-paper-deep: #0f1f23;
+  --editorial-ink: #fff5c6;
+  --editorial-white: #fff5c6;
+  --editorial-grey: #fff5c6;
+  --editorial-line: rgb(255 252 238 / 22%);
+}
+
+html,
+body,
+.editorial-page {
+  background: #0f1f23;
+  color: #fff5c6;
+}
+
+.hero,
+.ministry-section,
+.channels-section,
+.partnership-section,
+.manifesto-section,
+.section-ribbon {
+  background-color: #0f1f23;
+  color: #fff5c6;
+}
+
+.hero {
+  background: #0f1f23;
+  color: #fff5c6;
+}
+
+.hero-wash {
+  background: linear-gradient(90deg, #0f1f23 0%, rgb(15 31 35 / 94%) 22%, rgb(15 31 35 / 70%) 43%, transparent 70%);
+}
+
+.hero-photo {
+  mix-blend-mode: screen;
+  opacity: .8;
+}
+
+.site-header .brand-mini,
+.hero-copy .eyebrow,
+.hero-description,
+.hero-side-note,
+.hero-bottom,
+.scroll-cue,
+.section-heading .eyebrow,
+.section-intro,
+.pillar-card p,
+.card-topline,
+.channels-intro .eyebrow,
+.channels-intro > p:last-child,
+.channel-copy p,
+.partnership-heading .eyebrow,
+.partnership-description,
+.partnership-options > .eyebrow,
+.site-footer,
+.back-to-top {
+  color: #fff5c6;
+}
+
+.nav-pill {
+  border-color: rgb(255 252 238 / 32%);
+  background: #fffcee;
+}
+
+.nav-link {
+  color: #0f1f23;
+}
+
+.nav-link:hover,
+.nav-link:focus-visible,
+.nav-link.active {
+  background: #0f1f23;
+  color: #fff5c6;
+}
+
+.contact-button,
+.primary-button {
+  border-color: #fffcee;
+  background: #fffcee;
+  color: #0f1f23;
+}
+
+.contact-button:hover,
+.primary-button:hover {
+  border-color: #fffcee;
+  background: transparent;
+  color: #fff5c6;
+}
+
+.glass-nameplate {
+  border-color: rgb(255 252 238 / 35%);
+  background: rgb(15 31 35 / 84%);
+  color: #fff5c6;
+}
+
+.nameplate-symbol i,
+.brand-mark i {
+  border-color: currentColor;
+}
+
+.availability-dot,
+.eyebrow-dot,
+.ribbon-dot,
+.card-rule {
+  background: #fffcee;
+}
+
+.section-ribbon {
+  border-color: rgb(255 252 238 / 22%);
+  color: #fff5c6;
+}
+
+.ribbon-center {
+  color: #fffcee;
+}
+
+.manifesto-word {
+  background-image: linear-gradient(
+    90deg,
+    #fffcee var(--fill),
+    #fff5c6 var(--fill)
+  );
+}
+
+.manifesto-footer {
+  border-color: rgb(255 252 238 / 22%);
+  color: #fff5c6;
+}
+
+.manifesto-footer p {
+  color: #fff5c6;
+}
+
+.pillar-card,
+.pillar-card:hover {
+  border-color: rgb(255 252 238 / 23%);
+  background: #0f1f23;
+}
+
+.pillar-card:hover {
+  border-color: #fffcee;
+}
+
+.card-cross,
+.channel-mark,
+.channel-card > .arrow-icon,
+.partnership-options li .arrow-icon,
+.glass-tile {
+  color: #fffcee;
+}
+
+.channel-card,
+.channel-card:first-child {
+  border-color: rgb(255 252 238 / 22%);
+}
+
+.channel-card:hover {
+  background: rgb(255 252 238 / 5%);
+}
+
+.channel-mark {
+  border-color: #fffcee;
+}
+
+.partnership-panel {
+  border-color: rgb(255 252 238 / 38%);
+  background:
+    radial-gradient(ellipse at 15% 0%, rgb(255 252 238 / 8%), transparent 45%),
+    #0f1f23;
+}
+
+.glass-tile {
+  border-color: rgb(255 252 238 / 32%);
+  background: rgb(255 252 238 / 8%);
+}
+
+.partnership-options li,
+.partnership-options li:last-child {
+  border-color: rgb(255 252 238 / 22%);
+  color: #fff5c6;
+}
+
+.option-index,
+.partnership-options > .eyebrow {
+  color: #fff5c6;
+}
+
+.partnership-button {
+  border-color: #fffcee;
+  background: #fffcee;
+  color: #0f1f23;
+}
+
+.partnership-button:hover {
+  background: transparent;
+  color: #fff5c6;
+}
+
+.site-footer {
+  border-color: rgb(255 252 238 / 22%);
+}
+
+.footer-brand {
+  color: #fff5c6;
+}
+
+@media (max-width: 700px) {
+  .hero-wash {
+    background:
+      linear-gradient(180deg, #0f1f23 0%, #0f1f23 31%, rgb(15 31 35 / 88%) 47%, transparent 72%),
+      linear-gradient(90deg, rgb(15 31 35 / 40%), transparent 75%);
+  }
+
+  .contact-button {
+    border-color: #fffcee;
+    background: #fffcee;
+    color: #0f1f23;
+  }
+
+  .contact-button:hover {
+    color: #fff5c6;
+  }
+}
