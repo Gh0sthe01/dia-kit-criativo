@@ -1660,3 +1660,11 @@ body,
     left: 60%;
   }
 }
+
+/* Centraliza a placa sobre o peito no enquadramento desktop. */
+@media (min-width: 901px) {
+  .glass-nameplate { left: 51%; }
+}
+@media (min-width: 701px) and (max-width: 900px) {
+  .glass-nameplate { left: 51%; }
+}
