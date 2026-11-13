@@ -239,8 +239,8 @@ function Index() {
             <span className="eyebrow-dot" />
             Mídia Kit 2026
           </p>
-          <h1 id="hero-title" className="hero-title">
-            <span className="title-line"><span>Apóstolo</span></span>
+          <h1 id="hero-title" className="hero-title" aria-label="Apóstolo Luiz Henrique">
+            <span className="title-line"><span>Apóst<span className="title-accent-o">O</span>lo</span></span>
             <span className="title-line title-line-second">
               <span>Luiz Henrique</span>
             </span>
