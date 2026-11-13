@@ -1685,3 +1685,21 @@ body,
 .nav-link:not(.active) {
   color: #0f1f23;
 }
+
+
+/* Contraste reforçado para os botões claros do tema atual. */
+.editorial-page a.contact-button,
+.editorial-page a.primary-button,
+.editorial-page a.partnership-button {
+  color: #0f1f23 !important;
+}
+.editorial-page a.contact-button:hover,
+.editorial-page a.primary-button:hover,
+.editorial-page a.partnership-button:hover {
+  color: #fff5c6 !important;
+}
+.editorial-page a.contact-button .arrow-icon,
+.editorial-page a.primary-button .arrow-icon,
+.editorial-page a.partnership-button .arrow-icon {
+  stroke: currentColor !important;
+}
