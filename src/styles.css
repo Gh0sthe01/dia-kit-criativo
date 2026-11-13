@@ -1668,3 +1668,20 @@ body,
 @media (min-width: 701px) and (max-width: 900px) {
   .glass-nameplate { left: 51%; }
 }
+
+/* Melhora o contraste dos botões claros e da navegação. */
+.contact-button,
+.primary-button,
+.partnership-button {
+  color: #0f1f23;
+}
+
+.contact-button .arrow-icon,
+.primary-button .arrow-icon,
+.partnership-button .arrow-icon {
+  stroke: currentColor;
+}
+
+.nav-link:not(.active) {
+  color: #0f1f23;
+}
