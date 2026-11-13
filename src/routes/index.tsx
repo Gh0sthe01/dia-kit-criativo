@@ -240,7 +240,7 @@ function Index() {
             Mídia Kit 2026
           </p>
           <h1 id="hero-title" className="hero-title" aria-label="Apóstolo Luiz Henrique">
-            <span className="title-line"><span>Apóst<span className="title-accent-o">O</span>lo</span></span>
+            <span className="title-line"><span>Ap<span className="title-accent-o">o</span>stolo</span></span>
             <span className="title-line title-line-second">
               <span>Luiz Henrique</span>
             </span>
