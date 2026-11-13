@@ -1646,3 +1646,17 @@ body,
     transform: translate(-50%, 50%);
   }
 }
+
+/* Ajuste fino da placa para centralizar no peito do paletó. */
+@media (min-width: 901px) {
+  .glass-nameplate {
+    top: 70%;
+    left: 60%;
+  }
+}
+@media (min-width: 701px) and (max-width: 900px) {
+  .glass-nameplate {
+    top: 70%;
+    left: 60%;
+  }
+}
