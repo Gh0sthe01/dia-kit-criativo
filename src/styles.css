@@ -1621,3 +1621,28 @@ body,
   from { opacity: 0; filter: saturate(1.08) blur(10px); transform: translateY(40px); }
   to { opacity: 1; filter: contrast(1.04) saturate(1.08) blur(0); transform: translateY(0); }
 }
+
+/* Posiciona a placa de identificação sobre o peito do retrato. */
+@media (min-width: 901px) {
+  .glass-nameplate {
+    top: 78%;
+    left: 69%;
+    width: min(364px, 34vw);
+    transform: translate(-50%, -50%);
+  }
+}
+@media (min-width: 701px) and (max-width: 900px) {
+  .glass-nameplate {
+    top: 76%;
+    left: 68%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media (max-width: 700px) {
+  .glass-nameplate {
+    bottom: 34%;
+    left: 58%;
+    width: min(340px, calc(100% - 40px));
+    transform: translate(-50%, 50%);
+  }
+}
